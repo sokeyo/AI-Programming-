@@ -6,7 +6,7 @@ def auth(name, pin):
     while count > 0:
         if pin == 1234 :
         
-            print("You have entered the correct pin")
+            print("Welcome to Python 101")
         
             break
         else:
@@ -19,5 +19,4 @@ def auth(name, pin):
 
     
 result = auth(name, pin)
-
 #print (result)
